@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "name": "par-cristao-landing",
+  "builds": [
+    {
+      "src": "*.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    { "handle": "filesystem" }
+  ]
+}
