@@ -1,6 +1,6 @@
-# Par Cristão - Landing Page
+# Dualis - Landing Page
 
-Esta é a landing page premium do app Par Cristão.
+Esta é a landing page premium do app Dualis.
 
 ## Como publicar na Vercel
 
