@@ -1,0 +1,15 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls",
+            "delegate_permission/common.get_login_creds"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "app.parcristao",
+            "sha256_cert_fingerprints": [
+                "D6:45:59:DA:4A:F2:8B:7A:23:57:7D:22:BC:49:CD:F9:D5:4E:C9:8E:A0:4E:6E:37:23:BE:E1:12:C7:B2:A4:78"
+            ]
+        }
+    }
+]
