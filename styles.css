@@ -130,6 +130,9 @@ body {
 .logo-img {
     height: 45px;
     width: auto;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 4px 10px;
+    border-radius: 8px;
 }
 
 .nav {
@@ -1177,6 +1180,9 @@ body {
 .footer-logo {
     height: 40px;
     width: auto;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 4px 10px;
+    border-radius: 8px;
 }
 
 .footer-brand p {
@@ -1281,5 +1287,64 @@ body {
 
     .proof-number {
         font-size: 2rem;
+    }
+}
+
+/* CTA Features Grid */
+.features-grid-new {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+    text-align: left;
+}
+
+.feature-item-new {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1.5rem;
+    background: var(--glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    transition: all 0.3s ease;
+}
+
+.feature-item-new:hover {
+    transform: translateY(-5px);
+    border-color: var(--primary);
+    background: rgba(99, 102, 241, 0.1);
+}
+
+.feature-icon {
+    font-size: 2rem;
+    line-height: 1;
+    padding: 0.5rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+}
+
+.feature-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.feature-title {
+    font-weight: 700;
+    color: var(--text);
+    font-size: 1.1rem;
+}
+
+.feature-desc {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+    .features-grid-new {
+        grid-template-columns: 1fr;
+        gap: 1rem;
     }
 }

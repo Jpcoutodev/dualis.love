@@ -94,7 +94,7 @@
     <header class="header">
         <div class="container">
             <a href="#" class="logo">
-                <img src="logo.png" alt="Dualis" class="logo-img">
+                <img src="logo-v2.png" alt="Dualis" class="logo-img">
             </a>
             <nav class="nav">
                 <a href="#denominacoes">Denominações</a>
@@ -119,10 +119,7 @@
         </div>
         <div class="container" style="width: 100%;">
             <div class="hero-content">
-                <div class="badge-animated">
-                    <span class="pulse"></span>
-                    <span class="badge-text">Gratuito</span>
-                </div>
+
                 <h1 class="hero-title-main">
                     Encontre seu parceiro com a mesma <span class="gradient-text">fé e propósito</span>
                 </h1>
@@ -394,10 +391,7 @@
                 </div>
 
                 <!-- Testemunho 2 - Casal -->
-                <div class="testimonial-card-new">
-                    <div class="testimonial-photo">
-                        <img src="imagens/couple2.jpg" alt="Camila e Lucas">
-                    </div>
+                <div class="testimonial-card-new testimonial-no-photo">
                     <div class="testimonial-content">
                         <div class="stars">★★★★★</div>
                         <p>"Depois de anos buscando alguém que compartilhasse minha fé, encontrei o Lucas. Ele é a
@@ -466,29 +460,67 @@
             <div class="download-content">
                 <div class="download-text">
                     <span class="section-tag">Comece Hoje</span>
-                    <h2 class="section-title">Gratuito.<br><span class="gradient-text">Sem Pegadinhas.</span></h2>
+                    <h2 class="section-title">Inicie no <span class="gradient-text">Plano Gratuito</span></h2>
                     <p>Baixe agora e conecte-se com cristãos incríveis da sua denominação.</p>
-                    <ul class="features-list">
-                        <li><span class="check">✓</span> Perfil completo gratuito</li>
-                        <li><span class="check">✓</span> Matches ilimitados</li>
-                        <li><span class="check">✓</span> Chat sem limites</li>
-                        <li><span class="check">✓</span> Filtro por denominação</li>
-                    </ul>
+                    <p style="margin-bottom: 2rem; color: var(--text-muted);">Acreditamos que o amor deve ser acessível.
+                        Por isso, no Plano Gratuito você tem:</p>
+                    <div class="features-grid-new">
+                        <div class="feature-item-new">
+                            <div class="feature-icon">💌</div>
+                            <div class="feature-text">
+                                <span class="feature-title">10 "Olás" por dia</span>
+                                <span class="feature-desc">para iniciar conversas com quem você gostou.</span>
+                            </div>
+                        </div>
+                        <div class="feature-item-new">
+                            <div class="feature-icon">👀</div>
+                            <div class="feature-text">
+                                <span class="feature-title">Passar por 50 perfis diariamente</span>
+                                <span class="feature-desc">para encontrar seu par.</span>
+                            </div>
+                        </div>
+                        <div class="feature-item-new">
+                            <div class="feature-icon">❤️</div>
+                            <div class="feature-text">
+                                <span class="feature-title">Revelar 1 "Gostei" por dia</span>
+                                <span class="feature-desc">(descobrir quem curtiu você).</span>
+                            </div>
+                        </div>
+                        <div class="feature-item-new">
+                            <div class="feature-icon">⏳</div>
+                            <div class="feature-text">
+                                <span class="feature-title">Renovação Automática</span>
+                                <span class="feature-desc">Após 24 horas, seus limites se renovam.</span>
+                            </div>
+                        </div>
+                    </div>
                     <div class="store-buttons">
-                        <a href="#" class="store-btn"
-                            onclick="alert('Em breve estará disponível na Google Play. A versão Web já está disponível!'); return false;">
+                        <a href="https://play.google.com/store/apps/details?id=app.parcristao" class="store-btn"
+                            target="_blank"
+                            style="background: var(--gradient); border: none; color: white; transform: scale(1.05); box-shadow: 0 10px 25px rgba(99, 102, 241, 0.3);">
                             <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28">
                                 <path
                                     d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z" />
                             </svg>
                             <div>
-                                <small>Disponível no</small>
+                                <small style="color: rgba(255,255,255,0.9);">Disponível no</small>
                                 <strong>Google Play</strong>
                             </div>
                         </a>
                         <a href="https://app.dualis.love/" target="_blank" onclick="fbq('track', 'Lead');"
-                            style="background-color: #667eea; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">
-                            Baixar App / Acessar Web
+                            class="store-btn">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="28"
+                                height="28">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <line x1="2" y1="12" x2="22" y2="12"></line>
+                                <path
+                                    d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                                </path>
+                            </svg>
+                            <div>
+                                <small>Acesse Agora</small>
+                                <strong>Versão Web</strong>
+                            </div>
                         </a>
                     </div>
                 </div>
@@ -501,7 +533,7 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-brand">
-                    <img src="logo.png" alt="Dualis" class="footer-logo">
+                    <img src="logo-v2.png" alt="Dualis" class="footer-logo">
                     <p>Conectando cristãos com amor e fé.</p>
                 </div>
                 <div class="footer-links">
